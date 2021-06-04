@@ -1,0 +1,34 @@
+@media (max-width: 800px) {
+  .options{
+	width:80%;
+	height:100px;
+  }
+  .options a{
+	font-size:20px;
+  }
+  section {
+    flex-direction: column;
+  }
+  .saside{
+  	flex-direction:row;
+  	width:100%;
+  	align-items: center;
+    justify-content: space-around;
+  }
+
+ .saside div:first-child{
+	margin-top:unset;
+  }
+  .butIzq{
+	margin-top:unset;
+	width:25%;
+   }
+
+  .scontainer{
+  	width:100%;
+  }
+  .sfotos{
+  	width:100%;
+  }
+ 
+}
